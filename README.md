@@ -15,10 +15,11 @@ You´ll want to add a remote called upstream pointing to the canonical repositor
 <h3>Keeping everything up-to-date</h3>
 
 Assuming you already have master checked out, run:
+<pre>
 <code>git fetch upstream
 git merge --ff-only upstream/master
 </code>
-
+</pre>
 
 <h3>Compiling from source</h3>
 
