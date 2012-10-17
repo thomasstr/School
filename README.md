@@ -1,12 +1,23 @@
 <h1>School</h1>
 
 
-To get a copy of School
+Initial set-up
 
 <pre>
 <code>git clone https://github.com/thomasstr/School.git
 cd School</code>
 </pre>
+
+You´ll want to add a remote called upstream pointing to the canonical repository. This will allow you to easily keep your local master up-to-date.
+<code>git remote add upstream git://github.com/thomasstr/School.git
+</code>
+
+<h3>Keeping everything up-to-date</h3>
+
+Assuming you already have master checked out, run:
+<code>git fetch upstream
+git merge --ff-only upstream/master
+</code>
 
 
 <h3>Compiling from source</h3>
