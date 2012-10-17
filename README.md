@@ -3,10 +3,12 @@
 
 To get a copy of School
 
+<pre>
 <code>
 		git clone https://github.com/thomasstr/School.git
 		cd School
 </code>
+</pre>
 
 
 <h3>Compiling from source</h3>
