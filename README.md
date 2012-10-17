@@ -17,11 +17,10 @@ You´ll want to add a remote called upstream pointing to the canonical repositor
 Assuming you already have master checked out, run:
 <pre>
 <code>git fetch upstream
-git merge --ff-only upstream/master
-</code>
+git merge --ff-only upstream/master</code>
 </pre>
 
-<h3>Compiling from source</h3>
+<h3>Compiling pg3400-12 files from source</h3>
 
 <h4>Example:</h4>
 <code>
