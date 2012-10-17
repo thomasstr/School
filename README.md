@@ -1,9 +1,13 @@
 <h1>School</h1>
 
+
+To get a copy of School
+
 <code>
 		git clone https://github.com/thomasstr/School.git
 		cd School
 </code>
+
 
 <h3>Compiling from source</h3>
 
