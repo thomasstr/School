@@ -5,7 +5,7 @@ To get a copy of School
 
 <pre>
 <code>
-		"git clone https://github.com/thomasstr/School.git<br/>
+		"git clone https://github.com/thomasstr/School.git
 		cd School"
 </code>
 </pre>
