@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Login Form</title>
+</head>
+<body>
+	<h2>Hei, logg deg inn i applikasjonen:</h2>
+	<form name="loginForm" method="post" action="j_security_check">
+		<p>
+			<strong><label for="username">Brukernavn: </label>
+			</strong> <input id="username" type="text" name="j_username" size="25" />
+		</p>
+		<p>
+			<strong><label for="password">Passord: </label>
+			</strong> <input id="password" type="password" size="15" name="j_password" />
+		</p>
+		<p>
+			<input type="submit" value="Submit" /> <input type="reset"
+				value="Reset" />
+		</p>
+	</form>
+</body>
+</html>
