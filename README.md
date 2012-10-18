@@ -9,8 +9,10 @@ cd School</code>
 </pre>
 
 You´ll want to add a remote called upstream pointing to the canonical repository. This will allow you to easily keep your local master up-to-date.
+<pre>
 <code>git remote add upstream git://github.com/thomasstr/School.git
 </code>
+</pre>
 
 <h3>Keeping everything up-to-date</h3>
 
