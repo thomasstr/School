@@ -1,0 +1,12 @@
+[INFO ]-[2012-10-18 13:55:14,825]-[no.nith.pg560.infrastructure.UserJpaRepository]-[main]-Fikk ingen treff
+[DEBUG]-[2012-10-18 13:55:14,848]-[no.nith.pg560.infrastructure.UserJpaRepositoryIntegrationTest]-[main]-Number of users before persist: 1
+[DEBUG]-[2012-10-18 13:55:14,874]-[no.nith.pg560.infrastructure.UserJpaRepositoryIntegrationTest]-[main]-Number of users after first persist: 2
+[DEBUG]-[2012-10-18 13:55:14,889]-[no.nith.pg560.infrastructure.UserJpaRepositoryIntegrationTest]-[main]-Number of users after second persist: 3
+[DEBUG]-[2012-10-18 13:55:14,918]-[no.nith.pg560.infrastructure.UserJpaRepositoryIntegrationTest]-[main]-Number of users before delete: 3
+[DEBUG]-[2012-10-18 13:55:14,963]-[no.nith.pg560.infrastructure.UserJpaRepositoryIntegrationTest]-[main]-Number of users after delete: 2
+[INFO ]-[2012-10-18 21:42:23,176]-[no.nith.pg560.infrastructure.UserJpaRepository]-[main]-Fikk ingen treff
+[DEBUG]-[2012-10-18 21:42:23,199]-[no.nith.pg560.infrastructure.UserJpaRepositoryIntegrationTest]-[main]-Number of users before persist: 1
+[DEBUG]-[2012-10-18 21:42:23,215]-[no.nith.pg560.infrastructure.UserJpaRepositoryIntegrationTest]-[main]-Number of users after first persist: 2
+[DEBUG]-[2012-10-18 21:42:23,226]-[no.nith.pg560.infrastructure.UserJpaRepositoryIntegrationTest]-[main]-Number of users after second persist: 3
+[DEBUG]-[2012-10-18 21:42:23,260]-[no.nith.pg560.infrastructure.UserJpaRepositoryIntegrationTest]-[main]-Number of users before delete: 3
+[DEBUG]-[2012-10-18 21:42:23,271]-[no.nith.pg560.infrastructure.UserJpaRepositoryIntegrationTest]-[main]-Number of users after delete: 2

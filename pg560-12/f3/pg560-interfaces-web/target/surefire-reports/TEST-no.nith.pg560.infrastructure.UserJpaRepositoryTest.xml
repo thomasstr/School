@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0.277" errors="0" skipped="0" tests="3" name="no.nith.pg560.infrastructure.UserJpaRepositoryTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries"/>
+    <property name="java.vm.version" value="20.12-b01-434"/>
+    <property name="awt.nativeDoubleBuffering" value="true"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="mrj.build" value="11M3909"/>
+    <property name="java.vm.vendor" value="Apple Inc."/>
+    <property name="java.vendor.url" value="http://www.apple.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/thomass/School/pg560-12/f3/pg560-interfaces-web"/>
+    <property name="java.runtime.version" value="1.6.0_37-b06-434-11M3909"/>
+    <property name="java.awt.graphicsenv" value="apple.awt.CGraphicsEnvironment"/>
+    <property name="basedir" value="/Users/thomass/School/pg560-12/f3/pg560-interfaces-web"/>
+    <property name="java.endorsed.dirs" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="surefire.real.class.path" value="/Users/thomass/School/pg560-12/f3/pg560-interfaces-web/target/surefire/surefirebooter4067084469477497540.jar"/>
+    <property name="java.io.tmpdir" value="/var/folders/gl/c21lc9fn2qq0b2rshcv2_8q80000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.jnu.encoding" value="MacRoman"/>
+    <property name="java.library.path" value=".:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="surefire.test.class.path" value="/Users/thomass/School/pg560-12/f3/pg560-interfaces-web/target/test-classes:/Users/thomass/School/pg560-12/f3/pg560-interfaces-web/target/classes:/Users/thomass/.m2/repository/org/eclipse/persistence/eclipselink/2.4.0/eclipselink-2.4.0.jar:/Users/thomass/.m2/repository/org/eclipse/persistence/javax.persistence/2.0.4.v201112161009/javax.persistence-2.0.4.v201112161009.jar:/Users/thomass/.m2/repository/commonj/sdo/commonj.sdo/2.1.1.v201112051852/commonj.sdo-2.1.1.v201112051852.jar:/Users/thomass/.m2/repository/log4j/log4j/1.2.15/log4j-1.2.15.jar:/Users/thomass/.m2/repository/javax/mail/mail/1.4/mail-1.4.jar:/Users/thomass/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/Users/thomass/.m2/repository/javax/jms/jms/1.1/jms-1.1.jar:/Users/thomass/.m2/repository/com/sun/jdmk/jmxtools/1.2.1/jmxtools-1.2.1.jar:/Users/thomass/.m2/repository/com/sun/jmx/jmxri/1.2.1/jmxri-1.2.1.jar:/Users/thomass/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/thomass/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/Users/thomass/.m2/repository/org/apache/derby/derby/10.8.1.2/derby-10.8.1.2.jar:/Users/thomass/.m2/repository/org/apache/derby/derbyclient/10.8.1.2/derbyclient-10.8.1.2.jar:/Users/thomass/.m2/repository/org/mockito/mockito-all/1.9.0/mockito-all-1.9.0.jar:"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.8.2"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/thomass"/>
+    <property name="user.timezone" value="Europe/Oslo"/>
+    <property name="java.awt.printerjob" value="apple.awt.CPrinterJob"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="file.encoding" value="MacRoman"/>
+    <property name="user.name" value="thomass"/>
+    <property name="java.class.path" value="/Users/thomass/School/pg560-12/f3/pg560-interfaces-web/target/test-classes:/Users/thomass/School/pg560-12/f3/pg560-interfaces-web/target/classes:/Users/thomass/.m2/repository/org/eclipse/persistence/eclipselink/2.4.0/eclipselink-2.4.0.jar:/Users/thomass/.m2/repository/org/eclipse/persistence/javax.persistence/2.0.4.v201112161009/javax.persistence-2.0.4.v201112161009.jar:/Users/thomass/.m2/repository/commonj/sdo/commonj.sdo/2.1.1.v201112051852/commonj.sdo-2.1.1.v201112051852.jar:/Users/thomass/.m2/repository/log4j/log4j/1.2.15/log4j-1.2.15.jar:/Users/thomass/.m2/repository/javax/mail/mail/1.4/mail-1.4.jar:/Users/thomass/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/Users/thomass/.m2/repository/javax/jms/jms/1.1/jms-1.1.jar:/Users/thomass/.m2/repository/com/sun/jdmk/jmxtools/1.2.1/jmxtools-1.2.1.jar:/Users/thomass/.m2/repository/com/sun/jmx/jmxri/1.2.1/jmxri-1.2.1.jar:/Users/thomass/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/thomass/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/Users/thomass/.m2/repository/org/apache/derby/derby/10.8.1.2/derby-10.8.1.2.jar:/Users/thomass/.m2/repository/org/apache/derby/derbyclient/10.8.1.2/derbyclient-10.8.1.2.jar:/Users/thomass/.m2/repository/org/mockito/mockito-all/1.9.0/mockito-all-1.9.0.jar:"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home"/>
+    <property name="sun.java.command" value="/Users/thomass/School/pg560-12/f3/pg560-interfaces-web/target/surefire/surefirebooter4067084469477497540.jar /Users/thomass/School/pg560-12/f3/pg560-interfaces-web/target/surefire/surefire640930258691611411tmp /Users/thomass/School/pg560-12/f3/pg560-interfaces-web/target/surefire/surefire127361299974368772tmp"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="apple.awt.CToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.6.0_37"/>
+    <property name="java.ext.dirs" value="/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext"/>
+    <property name="sun.boot.class.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar"/>
+    <property name="java.vendor" value="Apple Inc."/>
+    <property name="localRepository" value="/Users/thomass/.m2/repository"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.apple.com/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="mrj.version" value="1070.1.6.0_37-434"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase time="0.21" classname="no.nith.pg560.infrastructure.UserJpaRepositoryTest" name="shouldFindUser"/>
+  <testcase time="0.001" classname="no.nith.pg560.infrastructure.UserJpaRepositoryTest" name="shouldDeleteUser"/>
+  <testcase time="0.001" classname="no.nith.pg560.infrastructure.UserJpaRepositoryTest" name="shouldPersistUser"/>
+</testsuite>

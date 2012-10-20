@@ -8,7 +8,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 /**
- * Domain object exposing the PG560_USER database. 
+ * Domain object exposing the PG560_USER database.
  */
 @Entity
 @Table(name = "PG560_USER")
@@ -21,8 +21,8 @@ public class User {
 	private String username;
 	private String name;
 	private String city;
-	private String country;	
-	
+	private String country;
+
 	public String getUsername() {
 		return username;
 	}

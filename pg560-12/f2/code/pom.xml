@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>PG560</groupId>
 	<artifactId>pg560-interfaces-web</artifactId>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 	<name>pg560-interfaces-web</name>
 	<version>1.0.0-SNAPSHOT</version>
 	<description>pg560-interfaces-web</description>
